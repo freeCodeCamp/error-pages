@@ -31,7 +31,7 @@ body {
 a {
   background-color: #1e2040;
   color: #d4d4da;
-  padding: 0.2em 0.2em 0.2em 0.4em;
+  padding: 0 0.2em 0.2em 0.4em;
   margin-right: 0.2em;
   position: relative;
   text-decoration: none;
@@ -46,6 +46,12 @@ a:hover {
 a:active {
   box-shadow: none;
   top: 5px;
+}
+
+.cloudflare-block {
+  border: 2px solid #d4d4da;
+  border-radius: 3px;
+  padding: 1em;
 }
 
 .cloudflare-block h1 {
