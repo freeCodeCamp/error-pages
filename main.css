@@ -29,8 +29,8 @@ body {
 }
 
 a {
-  background-color: #1e2040;
-  color: #d4d4da;
+  background-color: burlywood;
+  color: #1e2040;
   padding: 0 0.2em 0.2em 0.4em;
   margin-right: 0.2em;
   position: relative;
@@ -38,8 +38,8 @@ a {
 }
 
 a:hover {
-  color: #1e2040;
-  background-color: burlywood;
+  color: #d4d4da;
+  background-color: #1e2040;
   cursor: pointer;
 }
 
