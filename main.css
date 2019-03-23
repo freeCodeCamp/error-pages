@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Lato);
 
 html {
-  background-color: #fefefe;
+  background-color: #323251;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -10,7 +10,7 @@ html {
 
 body {
   font-family: "Lato", Arial;
-  color: #454545;
+  color: #d4d4da;
   font-size: 16px;
   margin: 2em auto;
   max-width: 800px;
@@ -25,4 +25,24 @@ body {
 .error-middle {
   display: block;
   vertical-align: middle;
+}
+
+a {
+  background-color: #1e2040;
+  color: #d4d4da;
+  padding: 0.2em 0.2em 0.2em 0.4em;
+  margin-right: 0.2em;
+  position: relative;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #1e2040;
+  background-color: burlywood;
+  cursor: pointer;
+}
+
+a:active {
+  box-shadow: none;
+  top: 5px;
 }
