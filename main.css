@@ -48,17 +48,22 @@ a:active {
   top: 5px;
 }
 
-.cloudflare-block {
+.cloudflare-block,
+.always_online {
   border: 2px solid #d4d4da;
   border-radius: 3px;
   padding: 1em;
 }
 
-.cloudflare-block h1 {
+.cloudflare-block h1,
+.always_online h1 {
   font-size: 16px;
 }
 .cloudflare-block p,
 .cloudflare-block ul,
-.cloudflare-block li {
+.cloudflare-block li,
+.always_online p,
+.always_online ul,
+.always_online li {
   font-size: 12px;
 }
