@@ -1,7 +1,7 @@
-@import url(https://fonts.googleapis.com/css?family=Lato);
+@import url("https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap");
 
 html {
-  background-color: #323251;
+  background-color: #0a0a23;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -9,8 +9,8 @@ html {
 }
 
 body {
-  font-family: "Lato", Arial;
-  color: #d4d4da;
+  font-family: "Roboto Mono", monospace;
+  color: white;
   font-size: 20px;
   margin: 2em auto;
   max-width: 800px;
@@ -29,18 +29,18 @@ body {
 }
 
 a {
-  background-color: burlywood;
-  color: #1e2040;
+  color: white;
   padding: 0 0.2em 0.2em 0.4em;
+  text-decoration: underline;
   margin-right: 0.2em;
   position: relative;
-  text-decoration: none;
 }
 
 a:hover {
-  color: #d4d4da;
-  background-color: #1e2040;
+  color: #f5f6f7;
+  background-color: #1b1b32;
   cursor: pointer;
+  text-decoration: none;
 }
 
 a:active {
