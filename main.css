@@ -11,12 +11,10 @@ html {
 body {
   font-family: "Roboto Mono", monospace;
   color: white;
-  font-size: 20px;
-  margin: 2em auto;
-  max-width: 800px;
+  font-size: 18px;
   padding: 1em;
   line-height: 1.4;
-  text-align: justify;
+  text-align: left;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -24,16 +22,12 @@ body {
 
 .error-middle {
   display: block;
-  vertical-align: middle;
   width: 60vw;
 }
 
 a {
   color: white;
-  padding: 0 0.2em 0.2em 0.4em;
   text-decoration: underline;
-  margin-right: 0.2em;
-  position: relative;
 }
 
 a:hover {
@@ -50,9 +44,8 @@ a:active {
 
 .cloudflare-block,
 .always_online {
-  border: 2px solid #d4d4da;
-  border-radius: 3px;
   padding: 1em;
+  margin: 1em;
 }
 
 .cloudflare-block h1,
