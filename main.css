@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap");
 
 html {
-  background-color: #0a0a23;
+  background-color: #ffffff;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -10,7 +10,7 @@ html {
 
 body {
   font-family: "Roboto Mono", monospace;
-  color: white;
+  color: #0a0a23;
   font-size: 18px;
   padding: 1em;
   line-height: 1.4;
@@ -26,7 +26,7 @@ body {
 }
 
 a {
-  color: white;
+  color: #0a0a23;
   text-decoration: underline;
 }
 
@@ -42,21 +42,32 @@ a:active {
   top: 5px;
 }
 
-.cloudflare-block,
-.always_online {
+.cloudflare-block {
   padding: 1em;
   margin: 1em;
 }
 
-.cloudflare-block h1,
-.always_online h1 {
-  font-size: 16px;
+.cloudflare-block h1 {
+  font-size: 1em;
 }
 .cloudflare-block p,
 .cloudflare-block ul,
-.cloudflare-block li,
-.always_online p,
-.always_online ul,
-.always_online li {
-  font-size: 12px;
+.cloudflare-block li {
+  font-size: 1em;
+}
+
+.universal-nav {
+  margin: 0px;
+  width: 100vw;
+  height: 38px;
+  background-color: #0a0a23;
+  position: fixed;
+  top: 0px;
+  display: flex;
+  justify-content: center;
+}
+
+.universal-nav img {
+  margin: 7px 0px;
+  height: 24px;
 }
