@@ -9,13 +9,93 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <meta name="viewport"
     content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-  <link rel="stylesheet" href="main.css">
+
+  <style>
+    @import url("https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap");
+
+    html {
+      background-color: #ffffff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+
+    body {
+      font-family: "Roboto Mono", monospace;
+      color: #0a0a23;
+      font-size: 18px;
+      padding: 1em;
+      line-height: 1.4;
+      text-align: left;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .error-middle {
+      display: block;
+      width: 60vw;
+    }
+
+    a {
+      color: #0a0a23;
+      text-decoration: underline;
+    }
+
+    a:hover {
+      color: #f5f6f7;
+      background-color: #1b1b32;
+      cursor: pointer;
+      text-decoration: none;
+    }
+
+    a:active {
+      box-shadow: none;
+      top: 5px;
+    }
+
+    .cloudflare-block {
+      padding: 1em;
+      margin: 1em;
+    }
+
+    .cloudflare-block h1 {
+      font-size: 1em;
+    }
+
+    .cloudflare-block p,
+    .cloudflare-block ul,
+    .cloudflare-block li {
+      font-size: 1em;
+    }
+
+    .universal-nav {
+      margin: 0px;
+      width: 100vw;
+      height: 38px;
+      background-color: #0a0a23;
+      position: fixed;
+      top: 0px;
+      display: flex;
+      justify-content: center;
+    }
+
+    .universal-nav img {
+      margin: 7px 0px;
+      height: 24px;
+    }
+
+    .youtube-embed {
+      text-align: center;
+    }
+  </style>
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-55446531-11"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
+    function gtag() { dataLayer.push(arguments); }
     gtag('js', new Date());
 
     gtag('config', 'UA-55446531-11');
@@ -38,10 +118,10 @@
     </h3>
 
     <div class="youtube-embed">
-    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/rAUn1Lom6dw" frameborder="0"
-      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <p><a href="https://www.youtube.com/watch?v=rAUn1Lom6dw"
-      rel="noreferrer noopener" target="_blank">How to Build Your Own Tetris Game with JavaScript</a>.</p>
+      <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/rAUn1Lom6dw" frameborder="0"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <p><a href="https://www.youtube.com/watch?v=rAUn1Lom6dw" rel="noreferrer noopener" target="_blank">How to Build
+          Your Own Tetris Game with JavaScript</a>.</p>
     </div>
 
     <h3>
