@@ -22,6 +22,7 @@
     }
 
     body {
+      margin-top: 30vh;
       font-family: "Roboto Mono", monospace;
       color: #0a0a23;
       font-size: 18px;
@@ -73,7 +74,7 @@
     .universal-nav {
       margin: 0px;
       width: 100vw;
-      height: 38px;
+      height: 2.5rem;
       background-color: #0a0a23;
       position: fixed;
       top: 0px;
@@ -89,6 +90,46 @@
     .youtube-embed {
       text-align: center;
     }
+
+    .youtube-player {
+      width: 100%;
+    }
+
+    @media (min-width: 325px) {
+        body {
+          margin-top: 7.5rem;
+        }
+      }
+
+      @media (min-width: 425px) {
+        body {
+          margin-top: 5rem;
+        }
+      }
+
+      @media (min-width: 505px) {
+        body {
+          margin-top: 8.5rem;
+        }
+
+        .youtube-player {
+          height: 15rem;
+        }
+      }
+
+      @media (min-width: 768px) {
+        .youtube-player {
+          height: 20rem;
+        }
+      }
+
+      @media (min-width: 1135px) {
+        .youtube-player {
+          width: 80%;
+          height: 30rem;
+        }
+      }
+
   </style>
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -118,7 +159,7 @@
     </h3>
 
     <div class="youtube-embed">
-      <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/rAUn1Lom6dw" frameborder="0"
+      <iframe class="youtube-player" src="https://www.youtube-nocookie.com/embed/rAUn1Lom6dw" frameborder="0"
         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       <p><a href="https://www.youtube.com/watch?v=rAUn1Lom6dw" rel="noreferrer noopener" target="_blank">How to Build
           Your Own Tetris Game with JavaScript</a>.</p>
