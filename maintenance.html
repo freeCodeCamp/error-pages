@@ -1,117 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Down for maintenance | freeCodeCamp.org</title>
+    <link
+      rel="icon"
+      href="https://raw.githubusercontent.com/freeCodeCamp/freeCodeCamp/master/docs/images/branding/favicon.ico"
+    />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
 
-<head>
-  <meta charset="UTF-8">
-  <title>Down for maintenance | freeCodeCamp.org</title>
-  <link rel="icon"
-    href="https://raw.githubusercontent.com/freeCodeCamp/freeCodeCamp/master/docs/images/branding/favicon.ico">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-  <meta name="viewport"
-    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <style>
+      @import url("https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap");
 
-  <style>
-    @import url("https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap");
-
-    html {
-      background-color: #ffffff;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      height: 100vh;
-    }
-
-    body {
-      margin-top: 30vh;
-      font-family: "Roboto Mono", monospace;
-      color: #0a0a23;
-      font-size: 18px;
-      padding: 1em;
-      line-height: 1.4;
-      text-align: left;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
-
-    .error-middle {
-      display: block;
-      width: 60vw;
-    }
-
-    a {
-      color: #0a0a23;
-      text-decoration: underline;
-    }
-
-    a:hover {
-      color: #f5f6f7;
-      background-color: #1b1b32;
-      cursor: pointer;
-      text-decoration: none;
-    }
-
-    a:active {
-      box-shadow: none;
-      top: 5px;
-    }
-
-    .cloudflare-block {
-      padding: 1em;
-      margin: 1em;
-    }
-
-    .cloudflare-block h1 {
-      font-size: 1em;
-    }
-
-    .cloudflare-block p,
-    .cloudflare-block ul,
-    .cloudflare-block li {
-      font-size: 1em;
-    }
-
-    .universal-nav {
-      margin: 0px;
-      width: 100vw;
-      height: 2.5rem;
-      background-color: #0a0a23;
-      position: fixed;
-      top: 0px;
-      display: flex;
-      justify-content: center;
-    }
-
-    .universal-nav img {
-      margin: 7px 0px;
-      height: 24px;
-    }
-
-    .youtube-embed {
-      text-align: center;
-    }
-
-    .youtube-player {
-      width: 100%;
-    }
-
-    @media (min-width: 325px) {
-        body {
-          margin-top: 7.5rem;
-        }
+      html {
+        background-color: #ffffff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
       }
 
-      @media (min-width: 425px) {
-        body {
-          margin-top: 5rem;
-        }
+      body {
+        font-family: "Roboto Mono", monospace;
+        color: #0a0a23;
+        font-size: 18px;
+        padding: 1em;
+        line-height: 1.4;
+        text-align: left;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 40px;
+      }
+
+      .error-middle {
+        display: block;
+        width: 80vw;
+      }
+
+      a {
+        color: #0a0a23;
+        text-decoration: underline;
+      }
+
+      a:hover {
+        color: #f5f6f7;
+        background-color: #1b1b32;
+        cursor: pointer;
+        text-decoration: none;
+      }
+
+      a:active {
+        box-shadow: none;
+        top: 5px;
+      }
+
+      .cloudflare-block {
+        padding: 1em;
+        margin: 1em;
+      }
+
+      .cloudflare-block h1 {
+        font-size: 1em;
+      }
+
+      .cloudflare-block p,
+      .cloudflare-block ul,
+      .cloudflare-block li {
+        font-size: 1em;
+      }
+
+      .universal-nav {
+        margin: 0px;
+        width: 100vw;
+        height: 2.5rem;
+        background-color: #0a0a23;
+        position: fixed;
+        top: 0px;
+        display: flex;
+        justify-content: center;
+      }
+
+      .universal-nav img {
+        margin: 7px 0px;
+        height: 24px;
+      }
+
+      .youtube-embed {
+        text-align: center;
+      }
+
+      .youtube-player {
+        width: 100%;
       }
 
       @media (min-width: 505px) {
-        body {
-          margin-top: 8.5rem;
-        }
-
         .youtube-player {
           height: 15rem;
         }
@@ -121,6 +107,9 @@
         .youtube-player {
           height: 20rem;
         }
+        .error-middle {
+          width: 60vw;
+        }
       }
 
       @media (min-width: 1135px) {
@@ -129,48 +118,69 @@
           height: 30rem;
         }
       }
+    </style>
 
-  </style>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-55446531-11"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-55446531-11"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
+      gtag("config", "UA-55446531-11");
+    </script>
+  </head>
 
-    gtag('config', 'UA-55446531-11');
-  </script>
-
-</head>
-
-<body>
-  <div class='universal-nav'>
-    <img alt="freeCodeCamp.org"
-      src="https://raw.githubusercontent.com/freeCodeCamp/freeCodeCamp/master/docs/images/branding/primary_logo.svg">
-  </div>
-  <div class="error-middle">
-    <h2>
-      We are upgrading this part of freeCodeCamp.org for the next few minutes.
-    </h2>
-
-    <h3>
-      Here’s something to watch while you wait:
-    </h3>
-
-    <div class="youtube-embed">
-      <iframe class="youtube-player" src="https://www.youtube-nocookie.com/embed/rAUn1Lom6dw" frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      <p><a href="https://www.youtube.com/watch?v=rAUn1Lom6dw" rel="noreferrer noopener" target="_blank">How to Build
-          Your Own Tetris Game with JavaScript</a>.</p>
+  <body>
+    <div class="universal-nav">
+      <img
+        alt="freeCodeCamp.org"
+        src="https://raw.githubusercontent.com/freeCodeCamp/freeCodeCamp/master/docs/images/branding/primary_logo.svg"
+      />
     </div>
+    <div class="error-middle">
+      <h2>
+        We are upgrading this part of freeCodeCamp.org for the next few minutes.
+      </h2>
 
-    <h3>
-      You should <a href="https://twitter.com/freecodecamp" target="_blank" rel="noopener">follow us on twitter</a>
-      for updates. We thank you for your patience while we make freeCodeCamp.org faster.
-    </h3>
+      <h3>
+        Here’s something to watch while you wait:
+      </h3>
 
-  </div>
-</body>
+      <div class="youtube-embed">
+        <iframe
+          class="youtube-player"
+          src="https://www.youtube-nocookie.com/embed/rAUn1Lom6dw"
+          frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+        <p>
+          <a
+            href="https://www.youtube.com/watch?v=rAUn1Lom6dw"
+            rel="noreferrer noopener"
+            target="_blank"
+            >How to Build Your Own Tetris Game with JavaScript</a
+          >.
+        </p>
+      </div>
 
+      <h3>
+        You should
+        <a
+          href="https://twitter.com/freecodecamp"
+          target="_blank"
+          rel="noopener"
+          >follow us on twitter</a
+        >
+        for updates. We thank you for your patience while we make
+        freeCodeCamp.org faster.
+      </h3>
+    </div>
+  </body>
 </html>
