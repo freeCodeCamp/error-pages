@@ -5,7 +5,6 @@ html {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100vh;
 }
 
 body {
@@ -18,11 +17,12 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: 10vw;
 }
 
 .error-middle {
   display: block;
-  width: 60vw;
+  width: 80vw;
 }
 
 a {
@@ -74,4 +74,10 @@ a:active {
 
 .youtube-embed {
   text-align: center;
+}
+
+@media (min-width: 768px) {
+  .error-middle {
+    width: 60vw;
+  }
 }
