@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap");
 
 html {
-  background-color: #ffffff;
+  background-color: #7d9ed1;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -74,6 +74,7 @@ a:active {
 
 .youtube-embed {
   text-align: center;
+  align-content: center;
 }
 
 @media (min-width: 768px) {
